@@ -2,12 +2,12 @@
 
 1) Create a file and add executable permission to all users (user, group and others)
 
-Commands:
+**Commands:**
 ```bash
 touch 1_1
 chmod a+x 1_1
-
-Output:
+```
+**Output:**
 ```bash
 ls -l 1_1
 -rwxrwxr-x 1 shaun shaun 0 Feb  4 19:39 1_1
