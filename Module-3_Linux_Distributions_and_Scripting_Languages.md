@@ -1,8 +1,8 @@
-**Module-3 Assessment: Linux Distributions and Scripting Languages**
-**Scenario:**
+**Module-3 Assessment: Linux Distributions and Scripting Languages** <br>
+**Scenario:** <br>
 Automating file backup and Reporting to the system. Create a shell script called "backup_manager.sh" that performs the following tasks incorporating the concepts suggested.
 
-Requirements:
+Requirements: <br>
 **1. Command-line Arguments and Quoting:** <br>
    The script must accept three arguments:<br>
    Source directory: A directory containing files to back up.<br>
@@ -101,10 +101,13 @@ chmod +x backup_manager.sh
 ./backup_manager.sh "source" "backup" ".txt"
 ```
 **Output:**
+```bash
 file_1.txt - 6 bytes
 file_2.txt - 4 bytes
+```
 
 **Backup Report:**
+```bash
 cat backup/backup_report.log
   Backup Report
   Total files processed : 2
