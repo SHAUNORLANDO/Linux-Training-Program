@@ -23,17 +23,24 @@ cat 2_1.txt
 ```bash
 nano config.txt
 cat config.txt
-  server=localhost
-  database_host=localhost
-  api_url=http://localhost:8080
+ server = localhost
+ database_host=localhost
+ port = 3306
+ api_url=http://localhost:8080
+ log_path = /var/log/localhost
+timeout = 30
+
 sed 's/localhost/127.0.0.1/g' config.txt > updated_config.txt
 ```
 **Output:**
 ```bash
 cat updated_config.txt
-  server=127.0.0.1
-  database_host=127.0.0.1
-  api_url=http://127.0.0.1:8080
+ server = 127.0.0.1
+ database_host=127.0.0.1
+ port = 3306
+ api_url=http://127.0.0.1:8080
+ log_path = /var/log/127.0.0.1
+ timeout = 30
 ```
 
 3) Use the appropriate command to search for lines containing the word "ERROR" in a log file but exclude lines containing "DEBUG". Save the results to a file named filtered_log.txt.<br>
