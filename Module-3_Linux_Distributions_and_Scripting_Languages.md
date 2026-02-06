@@ -106,9 +106,8 @@ file_1.txt - 6 bytes
 file_2.txt - 4 bytes
 ```
 
-**Backup Report:**
+**backup_report.log:**
 ```bash
-cat backup/backup_report.log
   Backup Report
   Total files processed : 2
   Total files backed up : 2
