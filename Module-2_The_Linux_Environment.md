@@ -38,20 +38,20 @@ cat updated_config.txt
 
 3) Use the appropriate command to search for lines containing the word "ERROR" in a log file but exclude lines containing "DEBUG". Save the results to a file named filtered_log.txt.
 log:
-DEBUG: Starting the application initialization.
-ERROR: Unable to connect to the database.
-INFO: User 'admin' logged in successfully.
-DEBUG: Fetching configuration settings from the server.
-ERROR: DEBUG - Configuration settings could not be applied.
-INFO: Scheduled job 'backup' completed successfully.
-DEBUG: Connection to server timed out. Retrying...
-ERROR: Failed to fetch data from API endpoint '/users'.
-INFO: Maintenance mode activated.
-ERROR: DEBUG - Query execution failed due to a syntax error.
-DEBUG: Reloading application modules.
-ERROR: Missing required parameter in the request.
-INFO: Shutting down the system gracefully.
-DEBUG: Closing unused network connections.
+DEBUG: Starting the application initialization.<br>
+ERROR: Unable to connect to the database.<br>
+INFO: User 'admin' logged in successfully.<br>
+DEBUG: Fetching configuration settings from the server.<br>
+ERROR: DEBUG - Configuration settings could not be applied.<br>
+INFO: Scheduled job 'backup' completed successfully.<br>
+DEBUG: Connection to server timed out. Retrying...<br>
+ERROR: Failed to fetch data from API endpoint '/users'.<br>
+INFO: Maintenance mode activated.<br>
+ERROR: DEBUG - Query execution failed due to a syntax error.<br>
+DEBUG: Reloading application modules.<br>
+ERROR: Missing required parameter in the request.<br>
+INFO: Shutting down the system gracefully.<br>
+DEBUG: Closing unused network connections.<br>
 ERROR: DEBUG - Unexpected server response received.
 
 **Commands:**
