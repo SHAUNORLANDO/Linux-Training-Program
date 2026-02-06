@@ -36,8 +36,8 @@ cat updated_config.txt
   api_url=http://127.0.0.1:8080
 ```
 
-3) Use the appropriate command to search for lines containing the word "ERROR" in a log file but exclude lines containing "DEBUG". Save the results to a file named filtered_log.txt.
-log:
+3) Use the appropriate command to search for lines containing the word "ERROR" in a log file but exclude lines containing "DEBUG". Save the results to a file named filtered_log.txt.<br>
+log:<br>
 DEBUG: Starting the application initialization.<br>
 ERROR: Unable to connect to the database.<br>
 INFO: User 'admin' logged in successfully.<br>
