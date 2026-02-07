@@ -18,7 +18,6 @@ do
 	   [[ "$line" == *"wlan.fc.subtype"* ]]; then
 		echo "$line" >> "$output_file"
 	fi
-
 done < "$input_file"
 ```
 Output is stored in output.txt
