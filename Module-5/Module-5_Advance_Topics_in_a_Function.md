@@ -10,7 +10,7 @@ Create a Bash script 'file_analyzer.sh', to demonstrate the following concepts:�
 5. Regular expressions - Validate inputs with regular expressions (Check if the file exists and the keyword is not empty and valid)<br> 
 6. Command-line arguments using getopts<br> 
    - Use 'getopts' to handle:<br>
-   '-d <directory>': Directory to search.<br>
+   '-d <directory>': Directory to search.<br>
    '-k <keyword>': Keyword to search.<br>
    '-f <file>': File to search directly.<br>
    '--help': Display the help menu.<br>
@@ -133,4 +133,19 @@ if [ -n "$directory" ];then
 	exit 0
 fi
 
+```
+
+**Output:**
+```bash
+./file_analyzer.sh -d wrongdir -k error
+	Script name		  : ./file_analyzer.sh
+	Total arguments		  : 4
+	Arguments passed		  : -d wrongdir -k error
+	ERROR: Directory does not exist
+```
+
+```bash
+cat errors.log
+	ERROR: Directory does not exist
+	ERROR: Directory does not exist
 ```
