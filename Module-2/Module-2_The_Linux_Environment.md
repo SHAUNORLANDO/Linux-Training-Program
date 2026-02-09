@@ -28,7 +28,7 @@ cat config.txt
  port = 3306
  api_url=http://localhost:8080
  log_path = /var/log/localhost
-timeout = 30
+ timeout = 30
 
 sed 's/localhost/127.0.0.1/g' config.txt > updated_config.txt
 ```
